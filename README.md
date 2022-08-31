@@ -22,7 +22,11 @@ Following packages are required for this repo.
 
 #### Datasets
 
-Clustered versions of used datasets for training (CIFAR, ESOGU Faces, COX, MS-1M-v2) will be uploaded to gdrive.
+ESOGU-285 Video:
+
+[Gdrive](https://drive.google.com/file/d/1LnAJhpjqMu-mf2J6YQqh5hmPFUlKAaz5/view?usp=sharing)
+
+After extracting dataset to `./data` folder, the script named `calculate_subclusters.py` needs to be invoked for preparing dataset to be training ready.
 
 ## 2. Training & Evaluation
 
@@ -62,4 +66,6 @@ ROC curves for various tested methods. The ROC curve on the left one is obtained
 
 ## 4. Pretrained Models
 
-Gdrive links will be published in this repo.
+Model trained on MS1MV2 with 3 subcluster:
+
+[Gdrive](https://drive.google.com/file/d/1yf7JKTmna_JaZJxnf7IHPP-Uxp6yqBux/view?usp=sharing)
